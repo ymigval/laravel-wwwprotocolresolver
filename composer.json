@@ -1,0 +1,28 @@
+{
+    "name": "ymigval/laravel-wwwprotocolresolver",
+    "description": "n/a",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ymigval\\LaravelWwwprotocolresolver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ymigval\\LaravelWwwprotocolresolver\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yordan",
+            "email": "banatube@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.21",
+        "laravel/pint": "^1.13"
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}
