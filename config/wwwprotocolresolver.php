@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'type' => 301,
+    'type' => env('WWW_PROTOCOL_RESOLVER_TYPE', 301),
 
     /*
     |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ return [
     |
     */
 
-    'use' => null,
+    'use' => env('WWW_PROTOCOL_RESOLVER_USE'),
 
     /*
     |--------------------------------------------------------------------------
@@ -44,5 +44,5 @@ return [
     |
     */
 
-    'mode' => null,
+    'mode' => env('WWW_PROTOCOL_RESOLVER_MODE'),
 ];
