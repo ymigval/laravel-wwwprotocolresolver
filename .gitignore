@@ -1,2 +1,4 @@
 /workbench
 /vendor
+.phpunit.result.cache
+/.idea

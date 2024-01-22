@@ -1,17 +1,17 @@
 {
     "name": "ymigval/laravel-wwwprotocolresolver",
-    "description": "n/a",
+    "type": "library",
+    "description": "A Laravel package for redirecting responses with or without www and with the specified protocol (http or https).",
+    "keywords": [
+        "laravel",
+        "www",
+        "protocol",
+        "redirect",
+        "http",
+        "https"
+    ],
+    "homepage": "https://github.com/ymigval/laravel-wwwprotocolresolver",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Ymigval\\LaravelWwwprotocolresolver\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Ymigval\\LaravelWwwprotocolresolver\\Tests\\": "tests/"
-        }
-    },
     "authors": [
         {
             "name": "Yordan",
@@ -23,6 +23,26 @@
         "laravel/pint": "^1.13"
     },
     "require": {
-        "php": "^8.1"
-    }
+        "php": "^8.0",
+        "spatie/url": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ymigval\\LaravelWwwProtocolResolver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ymigval\\LaravelWwwProtocolResolver\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ymigval\\LaravelWwwProtocolResolver\\Providers\\WWWProtocolResolverProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
