@@ -25,7 +25,10 @@ php artisan vendor:publish --tag="wwwprotocolresolver"
 To use the package, simply add the following environment variables to your .env file:
 
 ```dotenv
+# Supported: "http", "https"
 WWW_PROTOCOL_RESOLVER_USE=https
+
+# Supported: "with_www", "without_www"
 WWW_PROTOCOL_RESOLVER_MODE=with_www
 ```
 Ensure that you set these configurations only in production environments to avoid unwanted redirections during development.
