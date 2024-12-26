@@ -16,9 +16,6 @@ All notable changes to `ymigval/laravel-wwwprotocolresolver` will be documented 
 ### Deprecated
 - None
 
-### Changed
-- None
-
 ### Removed
 - None
 
@@ -27,3 +24,9 @@ All notable changes to `ymigval/laravel-wwwprotocolresolver` will be documented 
 
 ### Security
 - None
+
+
+## v1.0.1 - 2024-12-26
+
+### Security
+- Update .gitignore
