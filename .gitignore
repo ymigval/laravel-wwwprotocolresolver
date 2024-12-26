@@ -1,4 +1,5 @@
 /workbench
 /vendor
 .phpunit.result.cache
+composer.lock
 /.idea
